@@ -1,12 +1,12 @@
-let palavra = "What is Lorem Ipsum?";
+let frase = "What is Lorem Ipsum?";
 
-let contarEspacos = palavra.split(" ").length - 1
+let contarEspacos = frase.split(" ").length - 1
 
-let caracter = palavra.length
+let caracter = frase.length
 
 let contarAsLetras = caracter - contarEspacos;
 
  
-console.log(`A palavra "${palavra}" tem ${contarAsLetras} caracteres contando sem espaçamentos`);
-console.log(`A palavra Tem ${caracter} caracteres contando os com espaçamentos`)
+console.log(`A frase "${frase}" tem ${contarAsLetras} caracteres contando sem espaçamentos`);
+console.log(`A frase Tem ${caracter} caracteres contando os com espaçamentos`)
 
